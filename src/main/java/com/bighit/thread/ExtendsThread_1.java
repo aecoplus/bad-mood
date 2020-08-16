@@ -4,7 +4,7 @@ package com.bighit.thread;
  * @author jiangxl
  * @since 2020/8/9
  */
-public class ExtendsThread {
+public class ExtendsThread_1 {
 
     /**
      * 创建线程的三种方式:

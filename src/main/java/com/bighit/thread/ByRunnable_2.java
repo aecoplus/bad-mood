@@ -4,7 +4,7 @@ package com.bighit.thread;
  * @author jiangxl
  * @since 2020/8/9
  */
-public class ByRunnable {
+public class ByRunnable_2 {
     public static void main(String[] args) {
         // 创建Runnable对象 标识线程要执行的功能
         Runnable r = new MyRunnable();

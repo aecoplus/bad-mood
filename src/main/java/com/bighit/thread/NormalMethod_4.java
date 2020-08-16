@@ -3,8 +3,9 @@ package com.bighit.thread;
 /**
  * @author jiangxl
  * @since 2020/8/13
+ * @description 线程常见方法
  */
-public class NormalMethod {
+public class NormalMethod_4 {
     public static void main(String[] args) {
         try {
             Thread.sleep(100L);
