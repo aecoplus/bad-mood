@@ -45,8 +45,20 @@ public class ThreadPool {
      *    ThreadPoolExecutor.CallerRunsPolicy：由调用线程处理该任务。
      */
 
-    public ThreadPool() {
+    /**
+     * 线程池里又什么?
+     */
+    private Integer corePoolSize = 5;
+    private Integer maximunPoolSize = 10;
+    private Integer keepAliceTime = 5;
+    private BlockingQueue<RunnableTask> blockingQueue = new LinkedBlockingDeque<>();
 
+    private ThreadPoolExecutor executor;
+
+    public ThreadPool(String ) {
+        if (executor == null) {
+
+        }
     }
 
     public void addTask() {
